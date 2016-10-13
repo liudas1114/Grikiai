@@ -1,0 +1,48 @@
+##
+a = int(input("Iveskite nelygini skaiciu:"))
+##a = 7
+
+p = 1
+v = a//2+1
+g = a
+
+print("\n")
+if a%2==1 and a>=5:
+    while True:
+        l = []
+        i = 1
+        while i<=a:
+            if i==p or i==v or i==g:
+                l.append("*")
+            else:
+                l.append("@")
+            i+=1
+        print (l)
+        del l;
+        if p+1 ==v:
+            break
+        l = []
+        p+=1
+        g-=1
+        i==1
+
+    while True:
+        l = []
+        i = 1
+        p-=1
+        g+=1
+        i==1
+        while i<=a:
+            if i==p or i==v or i==g:
+                l.append("*")
+            else:
+                l.append("@")
+            i+=1
+        print (l)
+        del l;
+        if p==1:
+            break
+        l = []
+else:
+    print("Gedulis parode veiksma tik su nelyginiu skaicium, su lyginiu nelabai graziai iseina :(")
+print ("Pabaiga")
