@@ -1,0 +1,29 @@
+sk=int(input("Kiek skaiciu noresite ivesti? "))
+
+i=0
+while i<sk:
+    a = [int(x) for x in input("Iveskite norimus skaicius:")]
+    print(a)
+    i+=1
+print(a)
+
+"""
+while l<len(a):
+    d=a[l]
+    while l+1<len(a):
+        if a[l+1]<d:
+            d = a[l+1]
+    if d<a[l]:
+        while l+1<len(a):
+            if a[l+1]==d:
+                s = l+1
+            l+=1
+        k = a[i]
+        a[i] = a[s]
+        a[s] = k
+    l+=1
+
+p=0
+while p<len(a):
+    print(a[p])
+"""
